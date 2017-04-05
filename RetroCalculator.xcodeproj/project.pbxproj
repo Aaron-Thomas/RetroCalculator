@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401552731E7749A000662DB1 /* DigitalDream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 401552721E7749A000662DB1 /* DigitalDream.ttf */; };
 		406148551E2C1FF7002C9931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406148541E2C1FF7002C9931 /* AppDelegate.swift */; };
 		406148571E2C1FF7002C9931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406148561E2C1FF7002C9931 /* ViewController.swift */; };
 		4061485A1E2C1FF7002C9931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406148581E2C1FF7002C9931 /* Main.storyboard */; };
 		4061485C1E2C1FF7002C9931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4061485B1E2C1FF7002C9931 /* Assets.xcassets */; };
 		4061485F1E2C1FF7002C9931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4061485D1E2C1FF7002C9931 /* LaunchScreen.storyboard */; };
+		409D221D1E2D6B860038E48D /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 409D221C1E2D6B860038E48D /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		401552721E7749A000662DB1 /* DigitalDream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigitalDream.ttf; sourceTree = "<group>"; };
 		406148511E2C1FF6002C9931 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406148541E2C1FF7002C9931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406148561E2C1FF7002C9931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		4061485B1E2C1FF7002C9931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4061485E1E2C1FF7002C9931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		406148601E2C1FF7002C9931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409D221C1E2D6B860038E48D /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4061485B1E2C1FF7002C9931 /* Assets.xcassets */,
 				4061485D1E2C1FF7002C9931 /* LaunchScreen.storyboard */,
 				406148601E2C1FF7002C9931 /* Info.plist */,
+				409D221C1E2D6B860038E48D /* btn.wav */,
+				401552721E7749A000662DB1 /* DigitalDream.ttf */,
 			);
 			path = RetroCalculator;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					406148501E2C1FF5002C9931 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7D8A6696Q9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,7 +132,9 @@
 			files = (
 				4061485F1E2C1FF7002C9931 /* LaunchScreen.storyboard in Resources */,
 				4061485C1E2C1FF7002C9931 /* Assets.xcassets in Resources */,
+				401552731E7749A000662DB1 /* DigitalDream.ttf in Resources */,
 				4061485A1E2C1FF7002C9931 /* Main.storyboard in Resources */,
+				409D221D1E2D6B860038E48D /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.RetroCalculator;
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7D8A6696Q9;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.RetroCalculator;
@@ -299,6 +310,7 @@
 				406148651E2C1FF7002C9931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

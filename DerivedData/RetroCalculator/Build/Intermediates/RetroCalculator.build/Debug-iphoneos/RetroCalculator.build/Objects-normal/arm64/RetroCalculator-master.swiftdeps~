@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.36.2 clang-802.0.35)"
+options: "8f0086b75f6d52e3fabbead915746cb3"
+build_time: [542757480, 382212000]
+inputs:
+  "/Users/aaronthomas/Desktop/Xcode/DevSlopes/RetroCalculator/RetroCalculator/ViewController.swift": [542757478, 0]
+  "/Users/aaronthomas/Desktop/Xcode/DevSlopes/RetroCalculator/RetroCalculator/AppDelegate.swift": [537830646, 0]
